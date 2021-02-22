@@ -32,6 +32,5 @@ public class Task1_3_8 {
             }
         }
         System.out.println(nums);
-
     }
 }
