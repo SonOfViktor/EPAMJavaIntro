@@ -14,7 +14,7 @@ public class Task2_1_2 {
         int N = scanner.nextInt();
         int[] nums = new int[N];
         System.out.println("Внесите данные в массив:");
-        for (int i = 0; i < N; i++)
+        for (int i = 0; i < nums.length; i++)
             nums[i] = scanner.nextInt();
         System.out.print("Укажите число Z: ");
         int Z = scanner.nextInt();
