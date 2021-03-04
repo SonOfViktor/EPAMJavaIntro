@@ -33,7 +33,8 @@ public class Task1_3_8 {
                 }
                 if (itFound)
                     break;
-                i++;
+                else
+                     i++;
             }
         }
         System.out.println(nums);
