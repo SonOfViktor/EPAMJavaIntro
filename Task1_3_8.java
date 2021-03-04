@@ -17,18 +17,23 @@ public class Task1_3_8 {
         String strNum2 = Integer.toString(number2);
 
         for (char ch = '0'; ch <= '9'; ch++) {
-            for (int i = 0; i < strNum1.length(); i++){
+            int i = 0;
+            while (i < strNum1.length()) {
                 boolean itFound = false;
+                int j = 0;
                 if (ch == strNum1.charAt(i)) {
-                    for (int j = 0; j < strNum2.length(); j++)
+                    while (j < strNum2.length()) {
                         if (ch == strNum2.charAt(j)) {
                             nums += ch + " ";
                             itFound = true;
                             break;
                         }
+                        j++;
+                    }
                 }
                 if (itFound)
                     break;
+                i++;
             }
         }
         System.out.println(nums);
