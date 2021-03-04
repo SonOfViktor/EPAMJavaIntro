@@ -21,20 +21,9 @@ public class Task1_2_2 {
         int d = scanner.nextInt();
 
         // Первый способ
-        if (a > b)
-            minAB = b;
-        else
-            minAB = a;
-
-        if (c > d)
-            minCD = d;
-        else
-            minCD = c;
-
-        if (minAB > minCD)
-            max = minAB;
-        else
-            max = minCD;
+        minAB = (a < b) ? a : b;
+        minCD = (c < d) ? c : d;
+        max = (minAB > minCD) ? minAB : minCD;
 
         System.out.println("Искомое число равно " + max);
 
