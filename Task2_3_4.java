@@ -11,6 +11,7 @@ import java.util.Scanner;
 
 public class Task2_3_4 {
     public static void main(String[] args) {
+        int count = 0;
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Введите размер для массива: ");
@@ -37,14 +38,16 @@ public class Task2_3_4 {
                     int temp = array[j];
                     array[j] = array[j + 1];
                     array[j + 1] = temp;
+                    count++;
                 }
             }
         }
 
-        System.out.println("Изначальный массив:");
+        System.out.println("Отсортированный массив:");
         for (int el : array) {
             System.out.print(el + " ");
         }
         System.out.println();
+        System.out.println("Количество перестановок равно: " + count);
     }
 }
