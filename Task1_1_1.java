@@ -1,4 +1,4 @@
-package intro_to_java.practice_02;
+package intro_to_java.practice_01;
 
 // Найдите значение функции: z = ( (a – 3 ) * b / 2) + c.
 
