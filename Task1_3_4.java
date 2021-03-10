@@ -1,4 +1,4 @@
-package Practice1;
+package intro_to_java.practice_01;
 
 //Составить программу нахождения произведения квадратов первых двухсот чисел.
 
