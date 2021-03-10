@@ -1,4 +1,4 @@
-package Practice1;
+package intro_to_java.practice_01;
 
 // Вычислить значение функции на отрезке [a, b] с шагом h
 //      {x, x > 2
