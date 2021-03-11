@@ -1,4 +1,4 @@
-package Practice2;
+package intro_to_java.practice_02;
 
 // Дана матрица. Вывести k-ю строку и p-й столбец матрицы.
 
