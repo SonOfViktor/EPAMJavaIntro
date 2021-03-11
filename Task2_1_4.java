@@ -1,4 +1,4 @@
-package Practice2;
+package intro_to_java.practice_02;
 
 //Даны действительные числа a1, a2, ... Поменять местами наибольший и наименьший элементы
 
