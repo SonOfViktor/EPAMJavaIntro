@@ -1,4 +1,4 @@
-package Practice2;
+package intro_to_java.practice_02;
 
 // Дана квадратная матрица. Вывести на экран элементы, стоящие на диагонали.
 
