@@ -1,4 +1,4 @@
-package Practice2;
+package intro_to_java.practice_02;
 
 // Даны целые числа a1, a2, ..., an. Вывести на печать только те числа для которых ai > i
 
