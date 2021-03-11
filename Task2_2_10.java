@@ -1,5 +1,4 @@
-package Practice2;
-
+package intro_to_java.practice_02;
 // Найти положительные элементы главной диагонали квадратной матрицы.
 
 import java.util.Scanner;
