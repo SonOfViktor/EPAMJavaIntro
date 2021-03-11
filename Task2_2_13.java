@@ -1,4 +1,4 @@
-package Practice2;
+package intro_to_java.practice_02;
 
 // Отсортировать столбцы матрицы по возрастанию и убыванию значении элементов.
 
